@@ -9,3 +9,65 @@ body {
 h1 {
     font-family: Limelight, sans-serif;
 }
+
+/* header bar */
+
+#banner {
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 100px;
+}
+
+#menu {
+    float: right;
+    padding-top: 20px;
+}
+
+/* title */
+
+#title {
+    float: left;
+}
+
+/* navigation links */
+
+#menu li {
+    list-style-type: none;
+    float: right;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+#menu a:hover {
+    color: #6C57B7;
+}
+
+.active {
+    border-bottom: 4px solid #6C57B7;
+}
+
+/* footer */
+
+footer{
+    height: 50px;
+}
+
+.social {
+    text-align: center;
+}
+
+.social li {
+    display: inline;
+}
+
+.social i {
+    font-size: 160%;
+    margin: 1%;
+}
