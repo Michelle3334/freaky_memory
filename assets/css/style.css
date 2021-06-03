@@ -65,6 +65,10 @@ h1 {
     padding-left: 100px;
 }
 
+#h-image {
+    border-radius: 50px;
+}
+
 /* instructions */
 
 #instructions {
@@ -73,12 +77,36 @@ h1 {
     padding-right: 100px;
 }
 
+/* fun facts */
+
+#fun-facts {
+    clear: both;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#fun-facts i {
+    color: #6C57B7;
+}
+
+#fun-fact1 {
+    float: right;
+    width: 400px;
+    padding-right: 200px;
+}
+
+#fun-fact2 {
+    float: left;
+    width: 400px;
+    padding-left: 200px;
+}
+
 /* footer */
 
 footer{
     height: 50px;
-    clear: both;
     padding-top: 20px;
+    clear: both;
 }
 
 .social {
@@ -92,4 +120,5 @@ footer{
 .social i {
     font-size: 160%;
     margin: 1%;
+    color: #6C57B7;
 }
