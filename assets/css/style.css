@@ -1,1 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Limelight&display=swap');
+
+body {
+    background-color: #C3F8CE;
+    font-family: Limelight, sans-serif;
+    color: #191515;
+}
