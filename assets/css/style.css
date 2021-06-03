@@ -131,3 +131,52 @@ footer{
     margin: 1%;
     color: #6C57B7;
 }
+
+/* Contact us page */
+
+#contact-message{
+    margin-top: 120px;
+    text-align: center;
+}
+
+#contact {
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 30px;
+    border: 2px solid #6C57B7;
+}
+
+.text-input {
+    background: transparent;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid;
+    border-radius: 2px;
+}
+
+.text-input:hover{
+    border-color: #6C57B7;
+}
+.comment {
+    background: transparent;
+    width: 100%;
+    height: 100px;
+    margin: 5px 0 20px 0;
+    border: 1px solid;
+    border-radius: 2px;
+    font-family: inherit;
+}
+
+.comment:hover {
+    border-color: #6C57B7;
+}
+#submit-button {
+    margin: 0 auto;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: medium;
+    background-color: #6C57B7;
+    display: block;
+}

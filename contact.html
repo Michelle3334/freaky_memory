@@ -15,7 +15,7 @@
         <nav id="menu">
             <ul>
                 <li>
-                   <a href="contact.html" class="active">Contact Us</a>
+                   <a href="contact.html"  class="active">Contact Us</a>
                 </li>                        
                 <li>
                     <a href="#">Play!</a>
@@ -31,7 +31,27 @@
         </h1>
     </header>
     <section>
-
+        <!-- Contact us section-->
+        <!--hero image-->
+        <div id="hero-image">
+            <img id="h-image" src="assets/images/monster-win.jpg" width="320px" height="320px" alt="Cartoon of child in monster costume">
+        </div>  
+        <div id="contact-message">
+            <p>Do you have any questions or comments?</p>
+            <p>Feel free to get in touch using the form below.</p>
+        </div>
+        <!--Contact us form-->
+        <form action="#" method="get">
+            <fieldset id="contact">
+                <legend>Contact Us</legend>
+                <label for="name">Name</label>
+                <input class="text-input" type="text" placeholder="Full Name" id="name" required>
+                <label for="email">Email</label>
+                <input class="text-input" type="email" placeholder="Email Address" id="email" required>
+                <textarea class="comment" required placeholder="Your message........."></textarea>
+                <input id="submit-button" type="submit" value="Submit">
+            </fieldset>
+        </form>
     </section>
     <!-- footer -->
     <footer>
