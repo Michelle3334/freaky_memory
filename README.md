@@ -6,24 +6,24 @@
 Freaky Memory is an online card memory game. The site is targeted at users that enjoy logic and brain power games, with a fun theme of aliens and monsters.
 
 # Table of Contents
-1. [UX](https://#)
-    * [Website owner goals](https://#)
-    * [User stories](https://#)
-    * [Structure](https://#)
-    * [Wireframes](https://#)
-    * [Surface](https://#)
-2. [Features](https://#)
-3. [Technology](https://#)
-4. [Testing](https://#)
-    * [Functionality testing](https://#)
-    * [Code Validation](https://#)
-    * [Compatibility testing](https://#)
-    * [Performance testing](https://#)
-    * [User stories testing](https://#)
-    * [Known bugs](https://#)
-5. [Deployment](https://#)
-6. [Credits](https://#)
-7. [Acknowledgments](https://#)
+1. [UX](https://github.com/Michelle3334/freaky_memory#ux)
+    * [Website owner goals](https://github.com/Michelle3334/freaky_memory#website-owner-business-goals)
+    * [User stories](https://github.com/Michelle3334/freaky_memory#user-stories)
+    * [Structure](https://github.com/Michelle3334/freaky_memory#structure-of-the-website)
+    * [Wireframes](https://github.com/Michelle3334/freaky_memory#wireframes)
+    * [Surface](https://github.com/Michelle3334/freaky_memory#surface)
+2. [Features](https://github.com/Michelle3334/freaky_memory#features)
+3. [Technologies Used](https://github.com/Michelle3334/freaky_memory#technologies-used)
+4. [Testing](https://github.com/Michelle3334/freaky_memory#testing)
+    * [Functionality testing](https://github.com/Michelle3334/freaky_memory#functionality-testing)
+    * [Code Validation](https://github.com/Michelle3334/freaky_memory#code-validation)
+    * [Compatibility testing](https://github.com/Michelle3334/freaky_memory#compatibility-testing)
+    * [Performance testing](https://github.com/Michelle3334/freaky_memory#performance-testing)
+    * [User stories testing](https://github.com/Michelle3334/freaky_memory#user-stories-testing)
+    * [Known bugs](https://github.com/Michelle3334/freaky_memory#known-bugs)
+5. [Deployment](https://github.com/Michelle3334/freaky_memory#deployment)
+6. [Credits](https://github.com/Michelle3334/freaky_memory#credits)
+7. [Acknowledgments](https://github.com/Michelle3334/freaky_memory#acknowledgements)
 
 # UX
 ## Website owner business goals
@@ -44,7 +44,7 @@ Freaky Memory is an online card memory game. The site is targeted at users that 
 ## Structure of the website
 The website is designed to be user-friendy on all device sizes. Links have hover effects to provide interaction with the users.
 
-[Back to Table of Contents](https://#)
+[Back to Table of Contents](https://github.com/Michelle3334/freaky_memory#table-of-contents)
 
 ## Wireframes
 I used Balsamiq to create the wireframes.
@@ -63,21 +63,21 @@ I used Balsamiq to create the wireframes.
 * Play game mobile view 
 <img src="assets/images/readme/play-mobile.png" width=200 height=200>
 
-[Back to Table of Contents](https://#)
+[Back to Table of Contents](https://github.com/Michelle3334/freaky_memory#table-of-contents)
 
 ## Surface
 ### Colors
 The main colors used in this project:
-* Background color: 
-* Font color: 
-* Link & hover color: 
+* Background color: Granny apple #C3F8CE
+* Font color: Seal brown #191515
+* Link & hover color: Bilboa green #317213
 ### Fonts
 For the main heading elements I used . 
 Sans-Serif is used as a backup font.
 ### Images
 Images were sourced from pixabay.com. These are credited in credits section.
 
-[Back to Table of Contents](https://#)
+[Back to Table of Contents](https://github.com/Michelle3334/freaky_memory#table-of-contents)
 
 # Features
 ## Existing Features
@@ -108,7 +108,7 @@ Images were sourced from pixabay.com. These are credited in credits section.
 ## Features left to implement
 * I would like to include various levels of difficulty.
 
-[Back to Table of Contents](https://#)
+[Back to Table of Contents](https://github.com/Michelle3334/freaky_memory#table-of-contents)
 
 # Technologies Used:
 ### Programming Languages:
@@ -124,7 +124,7 @@ Images were sourced from pixabay.com. These are credited in credits section.
 ### Balsamiq
 * Balsamiq was used to create the wireframes during the design process.
 
-[Back to Table of Contents](https://#)
+[Back to Table of Contents](https://github.com/Michelle3334/freaky_memory#table-of-contents)
 
 # Testing
 ## Functionality Testing
@@ -145,7 +145,7 @@ Javascript validator???
     
     * Screenshot of javascript validation
 
-[Back to Table of Contents](https://#)
+[Back to Table of Contents](https://github.com/Michelle3334/freaky_memory#table-of-contents)
 
 ## Compatibility Testing
 * The website was tested on Google Chrome.
@@ -160,7 +160,7 @@ Screenshots of the final test are presented below:
 * Mobile
 <img src="#">
 
-[Back to Table of Contents](https://#)
+[Back to Table of Contents](https://github.com/Michelle3334/freaky_memory#table-of-contents)
 
 ## User Stories testing
 ### As a new user:
@@ -188,7 +188,7 @@ Screenshots of the final test are presented below:
 ## Known Bugs
 * 
 
-[Back to Table of Contents](https://#)
+[Back to Table of Contents](https://github.com/Michelle3334/freaky_memory#table-of-contents)
 
 # Deployment
 The project was deployed to GitHub Pages using the following steps, I used Gitpod as a development environment where I commited all changes to git version control system. I used the push command in Gitpod to save changes into GitHub:
@@ -209,14 +209,15 @@ To run locally:
 3. After download you can extract the file and use it in your local environment.
 4. Alternatively you can Clone or Fork this repository into your github account.
 
-[Back to Table of Contents](#)
+[Back to Table of Contents](https://github.com/Michelle3334/freaky_memory#table-of-contents)
 
 # Credits
 ## Code
 * 
 
 ## Content
-* The colour contrast for the background and title was checked using https://webaim.org/resources/contrastchecker/.
+* The colour contrast for the background, text and links were checked using https://webaim.org/resources/linkcontrastchecker/?fcolor=0D0D0D&bcolor=C3F8CE.
+<img src="assets/images/readme/link-contrast-check.PNG">
 
 ## Media
 * All images were obtained from pixabay.com.
@@ -225,4 +226,4 @@ To run locally:
 * My mentor for advice and feedback.
 * My family for their endless support and feedback.
 
-[Back to Table of Contents](https://#)
+[Back to Table of Contents](https://github.com/Michelle3334/freaky_memory#table-of-contents)
