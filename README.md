@@ -72,7 +72,7 @@ The main colors used in this project:
 * Font color: Seal brown #191515
 * Link & hover color: Bilboa green #317213
 ### Fonts
-For the main heading elements I used . 
+For the main heading element I used Limelight and for all other text I used Josephin Sans. 
 Sans-Serif is used as a backup font.
 ### Images
 Images were sourced from pixabay.com. These are credited in credits section.
