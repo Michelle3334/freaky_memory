@@ -70,7 +70,9 @@ I used Balsamiq to create the wireframes.
 The main colors used in this project:
 * Background color: Granny apple #C3F8CE
 * Font color: Seal brown #191515
-* Link & hover color: Bilboa green #317213
+* Link & hover color: Blue Marguerite #6C57B7
+ * Initially I was going to use Bilboa green #317213 for the link and hover text, but during initial development I realised the color contrast was not great enough.
+
 ### Fonts
 For the main heading element I used Limelight and for all other text I used Josephin Sans. 
 Sans-Serif is used as a backup font.
@@ -216,8 +218,8 @@ To run locally:
 * 
 
 ## Content
-* The colour contrast for the background, text and links were checked using https://webaim.org/resources/linkcontrastchecker/?fcolor=0D0D0D&bcolor=C3F8CE.
-<img src="assets/images/readme/link-contrast-check.PNG">
+* The colour contrast for the background, text and links were checked using https://webaim.org/resources/linkcon. 
+<img src="assets/images/readme/link-contrast-check-v2.PNG">
 
 ## Media
 * All images were obtained from pixabay.com.
