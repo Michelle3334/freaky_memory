@@ -223,7 +223,7 @@ To run locally:
 * Content for the fun facts was obtained from https://www.classicgamesandpuzzles.com/Memory.html. 
 
 ## Media
-* All images were obtained from pixabay.com.
+* All images were obtained from https://pixabay.com.
 
 ## Acknowledgements
 * My mentor for advice and feedback.
