@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Limelight&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: #C3F8CE;
     font-family: Josefin, sans-serif;
@@ -31,6 +35,7 @@ h1 {
 #title {
     float: left;
     margin-left: 300px;
+    padding-top: 15px;
 }
 
 #title a {
@@ -82,10 +87,10 @@ h1 {
 
 #instructions {
     float: right;
-    width: 700px;
-    margin-right: 100px;
-    padding-left: 10px;
-    margin-top: 100px;
+    width: 600px;
+    margin-right: 200px;
+    padding: 10px;
+    margin-top: 120px;
     border: 2px solid;
 }
 /*
@@ -95,6 +100,10 @@ h1 {
 */
 #instructions i {
     color: #6C57B7;
+}
+
+#instructions p {
+    padding-top: 10px;
 }
 
 /* Play now button */
@@ -132,6 +141,10 @@ h1 {
 
 #fun-facts i {
     color: #6C57B7;
+}
+
+#fun-facts p {
+    padding-top: 5px;
 }
 
 #fun-fact1 {
@@ -173,6 +186,7 @@ footer{
 #contact-message{
     margin-top: 120px;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 #contact {
@@ -183,6 +197,7 @@ footer{
 }
 
 .text-input {
+    padding-left: 10px;
     background: transparent;
     width: 100%;
     height: 25px;
@@ -195,6 +210,8 @@ footer{
     border-color: #6C57B7;
 }
 .comment {
+    padding-left: 10px;
+    padding-top: 5px;
     background: transparent;
     width: 100%;
     height: 100px;
@@ -215,4 +232,5 @@ footer{
     font-size: medium;
     background-color: #6C57B7;
     display: block;
+    cursor: pointer;
 }
