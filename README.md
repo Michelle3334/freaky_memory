@@ -203,7 +203,7 @@ The project was deployed to GitHub Pages using the following steps, I used Gitpo
 5. The page will automatically refresh.
 6. The now published site link shows at the top of the page.
 
-The live link can be found here: ##
+The live site can be found here: https://michelle3334.github.io/freaky_memory/index.html
 
 To run locally:
 
