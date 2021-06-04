@@ -49,13 +49,9 @@ h1 {
     margin-right: 100px;
 }
 
-#menu li {
-    list-style-type: none;
+#menu a {
     float: right;
     margin-right: 30px;
-}
-
-#menu a {
     text-decoration: none;
     color: inherit;
     font-weight: bold;
@@ -233,4 +229,85 @@ footer{
     background-color: #6C57B7;
     display: block;
     cursor: pointer;
+}
+
+/** Media Queries **/
+
+/* For small screen sizes from 650px wide and down */
+
+@media screen and (max-width: 650px) {
+    #title {
+        font-size: medium;
+        margin-left: 20px;
+        padding-top: 28px;
+    }
+
+    #menu {
+        margin-right: 0;
+        font-size: small;
+    }
+
+    #menu a {
+        padding-right: 5px;
+        margin-right: 5px;
+    }
+
+    #instructions {
+        margin-right: 55px;
+        width: 80%;
+    }
+
+    #hero-image {
+        display: none;
+    }
+ 
+    #fun-fact1 {
+        float: none;
+        padding-right: 0;
+        padding-left: 100px;
+    }
+   
+    #fun-fact2 {
+        float: none;
+        padding-top: 20px;
+        padding-left: 100px;
+    }
+
+    form {
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+
+    #contact {
+        padding-left: 20px;
+    }
+
+}
+
+/* For small screen sizes from 550px wide and down */
+@media screen and (max-width: 550px) {
+    
+    #instructions {
+        margin-right: 40px;
+    }
+
+    #fun-fact1 {
+        float: none;
+        padding-right: 0;
+        padding-left: 60px;
+    }
+   
+    #fun-fact2 {
+        float: none;
+        padding-top: 20px;
+        padding-left: 60px;
+    }
+}
+
+/* For small screen sizes from 400px wide and down */
+@media screen and (max-width: 400px) {
+    
+    #instructions {
+        margin-right: 20px;
+    }
 }
