@@ -71,7 +71,8 @@ The main colors used in this project:
 * Background color: Granny apple #C3F8CE
 * Font color: Seal brown #191515
 * Link & hover color: Blue Marguerite #6C57B7
- * Initially I was going to use Bilboa green #317213 for the link and hover text, but during initial development I realised the color contrast was not great enough.
+    * Initially I was going to use Bilboa green #317213 for the link and hover text, but during initial development I realised the color contrast was not great enough.
+<img src="assets/images/readme/link-contrast-check-v2.PNG">
 
 ### Fonts
 For the main heading element I used Limelight and for all other text I used Josephin Sans. 
@@ -219,7 +220,7 @@ To run locally:
 
 ## Content
 * The colour contrast for the background, text and links were checked using https://webaim.org/resources/linkcon. 
-<img src="assets/images/readme/link-contrast-check-v2.PNG">
+* Content for the fun facts was obtained from https://www.classicgamesandpuzzles.com/Memory.html. 
 
 ## Media
 * All images were obtained from pixabay.com.
