@@ -74,7 +74,7 @@ h1 {
 }
 
 #h-image {
-    border-radius: 50px;
+    border-radius: 90px;
 }
 
 /* instructions */
@@ -85,6 +85,33 @@ h1 {
     padding-right: 100px;
     margin-top: 100px;
 }
+
+/* Play now button */
+
+#playbtn {
+    text-align: center;
+    clear: both;
+    padding-top: 20px;
+    height: 50px;
+}
+
+#playnow {
+    text-decoration: none;
+    /*color: #6c57b7;*/
+    color: inherit;
+    border-color: #6C57B7;
+    font-size: large;
+    padding: 20px;
+    margin: 4px 2px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#playnow:hover {
+    background-color: #6C57B7;
+    color: white;
+}
+
 
 /* fun facts */
 
