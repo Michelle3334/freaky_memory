@@ -233,8 +233,85 @@ footer{
 
 /** Media Queries **/
 
+/* For large screens sizes from 1250px wide and down */
+@media screen and (max-width: 1250px) {
+
+    #instructions {
+        margin-right: 50px;
+    }
+
+    #fun-fact1 {
+        padding-right: 100px;
+    }
+   
+    #fun-fact2 {
+        padding-left: 100px;
+    }
+
+    #hero-image {
+        padding-left: 50px;
+    }
+}
+
+/* For medium screens sizes from 1050px wide and down */
+@media screen and (max-width: 1050px) {
+
+    #title {
+        margin-left: 200px;
+    }
+
+    #instructions {
+        margin-right: 10px;
+        width: 550px;
+    }
+
+    #hero-image {
+        padding-left: 20px;
+    }
+
+    #fun-fact1 {
+        padding-right: 50px;
+    }
+   
+    #fun-fact2 {
+        padding-left: 50px;
+    }
+}
+
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+#title {
+        margin-left: 100px;
+        padding-top: 20px;
+    }
+
+    #instructions {
+        width: 500px;
+        margin-right: 20px;
+    }
+
+    #hero-image {
+        padding-left: 5px;
+    }
+
+    #h-image {
+        width: 300px;
+        height: 300px;
+    }
+
+    #fun-fact1 {
+        padding-right: 20px;
+    }
+   
+    #fun-fact2 {
+        padding-left: 20px;
+    }
+}
+
 /* For small screen sizes from 850px wide and down */
 @media screen and (max-width: 850px) {
+
     #title {
         font-size: x-large;
         margin-left: 50px;

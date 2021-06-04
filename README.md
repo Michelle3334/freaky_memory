@@ -68,7 +68,8 @@ I used Balsamiq to create the wireframes.
 ## Surface
 ### Colors
 The main colors used in this project:
-* Background color: Granny apple #C3F8CE
+* Header background color: Granny apple #C3F8CE
+* Background color: Granny apple #D5F6DC
 * Font color: Seal brown #191515
 * Link & hover color: Blue Marguerite #6C57B7
     * Initially I was going to use Bilboa green #317213 for the link and hover text, but during initial development I realised the color contrast was not great enough.
