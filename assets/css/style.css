@@ -281,7 +281,6 @@ footer{
     #contact {
         padding-left: 20px;
     }
-
 }
 
 /* For small screen sizes from 550px wide and down */
@@ -304,10 +303,39 @@ footer{
     }
 }
 
+
+/* For small screen sizes from 480px wide and down */
+@media screen and (max-width: 480px) {
+    
+    #instructions {
+        margin-right: 30px;
+    }
+
+    #fun-fact1 {
+        padding-right: 20px;
+        padding-left: 10px;
+    }
+   
+    #fun-fact2 {
+        padding-right: 20px;
+        padding-left: 10px;
+    }
+}
+
 /* For small screen sizes from 400px wide and down */
 @media screen and (max-width: 400px) {
     
     #instructions {
-        margin-right: 20px;
+        margin-right: 5px;
+    }
+
+    #fun-fact1 {
+        padding-right: 20px;
+        padding-left: 10px;
+    }
+   
+    #fun-fact2 {
+        padding-right: 20px;
+        padding-left: 10px;
     }
 }
