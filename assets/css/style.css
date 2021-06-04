@@ -233,6 +233,44 @@ footer{
 
 /** Media Queries **/
 
+/* For small screen sizes from 850px wide and down */
+@media screen and (max-width: 850px) {
+    #title {
+        font-size: x-large;
+        margin-left: 50px;
+        padding-top: 25px;
+    }
+
+    #menu {
+        margin-right: 80px;
+        font-size: medium;
+    }
+
+    #menu a {
+        padding-right: 5px;
+        margin-right: 5px;
+    }
+
+    #hero-image {
+        display: none;
+    }
+
+    #instructions {
+        width: 80%;
+        margin-right: 70px;
+    }
+
+    #fun-fact1 {
+        padding-right: 20px;
+        width: 300px;
+    }
+   
+    #fun-fact2 {
+        padding-left: 20px;
+        width: 300px;
+    }
+}  
+
 /* For small screen sizes from 650px wide and down */
 
 @media screen and (max-width: 650px) {
@@ -262,15 +300,13 @@ footer{
     }
  
     #fun-fact1 {
-        float: none;
-        padding-right: 0;
-        padding-left: 100px;
+        padding-right: 20px;
+        width: 250px;
     }
    
     #fun-fact2 {
-        float: none;
-        padding-top: 20px;
-        padding-left: 100px;
+        padding-left: 0;
+        width: 250px;
     }
 
     form {
@@ -288,6 +324,10 @@ footer{
     
     #instructions {
         margin-right: 40px;
+    }
+
+    #fun-facts {
+        margin-left: 80px;
     }
 
     #fun-fact1 {
