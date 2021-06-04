@@ -49,7 +49,7 @@ The website is designed to be user-friendy on all device sizes. Links have hover
 ## Wireframes
 I used Balsamiq to create the wireframes.
 * Home page 
-<img src="assets/images/readme/home-mobile.png" width=200 height=200>
+<img src="assets/images/readme/home.png" width=200 height=200>
 
 * Play game 
 <img src="assets/images/readme/play.png" width=200 height=200>
