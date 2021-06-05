@@ -198,7 +198,7 @@ footer{
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid;
+    border: 2px solid;
     border-radius: 2px;
 }
 
@@ -212,7 +212,7 @@ footer{
     width: 100%;
     height: 100px;
     margin: 5px 0 20px 0;
-    border: 1px solid;
+    border: 2px solid;
     border-radius: 2px;
     font-family: inherit;
 }
@@ -222,13 +222,19 @@ footer{
 }
 #submit-button {
     margin: 0 auto;
-    border-radius: 2px;
+    border: 2px solid #6c57b7;
+    border-radius: 15px;
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: medium;
-    background-color: #6C57B7;
+    background-color: #D5F6DC;
     display: block;
     cursor: pointer;
+}
+
+#submit-button:hover {
+    background-color: #6C57B7;
+    color: white;
 }
 
 /** Media Queries **/
