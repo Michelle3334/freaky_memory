@@ -258,6 +258,32 @@ footer{
     padding: 25px;
 }
 
+#game {
+    width: 640px;
+    height: 640px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#reset-btn {
+    margin: 0 auto;
+    border: 2px solid #6c57b7;
+    border-radius: 15px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: medium;
+    background-color: #D5F6DC;
+    display: block;
+    cursor: pointer;
+}
+
+#reset-btn:hover {
+    background-color: #6C57B7;
+    color: white;
+    transform: scale(1.10);
+}
+
 /** Media Queries **/
 
 /* For large screens sizes from 1250px wide and down */
