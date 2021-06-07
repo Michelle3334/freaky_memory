@@ -120,6 +120,7 @@ h1 {
     margin: 4px 2px;
     border-radius: 50%;
     cursor: pointer;
+
 }
 
 #playnow:hover {
@@ -235,6 +236,7 @@ footer{
 #submit-button:hover {
     background-color: #6C57B7;
     color: white;
+    transform: scale(1.10);
 }
 
 /** Media Queries **/
