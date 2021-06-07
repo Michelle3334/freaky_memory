@@ -89,11 +89,7 @@ h1 {
     margin-top: 120px;
     border: 2px solid;
 }
-/*
-#instructions h3 {
-    text-align: center;
-}
-*/
+
 #instructions i {
     color: #6C57B7;
 }
@@ -120,7 +116,6 @@ h1 {
     margin: 4px 2px;
     border-radius: 50%;
     cursor: pointer;
-
 }
 
 #playnow:hover {
