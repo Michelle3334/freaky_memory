@@ -239,6 +239,30 @@ footer{
     transform: scale(1.10);
 }
 
+
+/** Play page **/
+
+#hero-top {
+    margin-top: 85px;
+    background-image: url("../images/hero-image.jpg");
+    background-size: 150px;
+    height: 120px;
+    width: 100%;
+}
+
+#score {
+    margin-left: 220px;
+    margin-right: 220px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.scores {
+    display: inline-block;
+    text-align: center;
+    padding: 25px;
+}
+
 /** Media Queries **/
 
 /* For large screens sizes from 1250px wide and down */
