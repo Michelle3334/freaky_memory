@@ -1,84 +1,132 @@
 // Wait for the DOM to finish loading before running the game
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", () => {
 
-    //Card list (named easy to allow for more difficulty levels to be added at 
-    //a later stage).
-    const easyCardList = [
-      {
-        name:"green-two",
-        img:"./assets/images/cards/green-alien2.png"
-      },
-      {
-        name:"blue",
-        img:"./assets/images/cards/blue-alien.png"
-      },
-      {
-        name:"green",
-        img:"./assets/images/cards/green-alien.png"
-      },
-      {
-        name: "red",
-        img:"./assets/images/cards/red-alien.png"
-      },
-      {
-        name:"reddragon",
-        img:"./assets/images/cards/red-dragon.png"
-      },
-      {
-        name:"purple",
-        img:"./assets/images/cards/purple-alien.png"
-      },
-      {
-        name:"blue",
-        img:"./assets/images/cards/blue-alien.png"
-      },
-      {
-        name:"green-two",
-        img:"./assets/images/cards/green-alien2.png"
-      },
-      {
-        name:"reddragon",
-        img:"./assets/images/cards/red-dragon.png"
-      },
-      {
-        name:"green",
-        img:"./assets/images/cards/green-alien.png"
-      },
-      {
-        name:"red",
-        img:"./assets/images/cards/red-alien.png"
-      },
-      {
-        name:"purple",
-        img:"./assets/images/cards/purple-alien.png"
-      }
-    ];
-  
-    // Randomly sort cards
-    easyCardList.sort(() => 0.5 - Math.random());
-  
-    // Set constants
-    const game = document.getElementById("game");
-    const score = document.getElementById("result");
-    const movesCount = document.getElementById("moves");
-    const reset = document.getElementById("reset-btn");
-  
-    const cardsChosen = [];
-    const cardsChosenId = [];
-    const cardsRight = [];
-  
-    // Create game
-    function createGame () {
-      for (let i = 0; i < easyCardList.length; i++) {
-        var card = document.createElement("img");
-        card.setAttribute("src", "./assets/images/cards/blank.png");
-        card.setAttribute("class", "game-cards");
-        card.setAttribute("data-id", i);
-        game.appendChild(card);
-      }
+  //Card list (named 'easyCardList' to allow for more difficulty levels to be added at 
+  //a later stage).
+  const easyCardList = [
+    {
+      name:"green-two",
+      img:"./assets/images/cards/green-alien2.png"
+    },
+    {
+      name:"blue",
+      img:"./assets/images/cards/blue-alien.png"
+    },
+    {
+      name:"green",
+      img:"./assets/images/cards/green-alien.png"
+    },
+    {
+      name: "red",
+      img:"./assets/images/cards/red-alien.png"
+    },
+    {
+      name:"reddragon",
+      img:"./assets/images/cards/red-dragon.png"
+    },
+    {
+      name:"purple",
+      img:"./assets/images/cards/purple-alien.png"
+    },
+    {
+      name:"blue",
+      img:"./assets/images/cards/blue-alien.png"
+    },
+    {
+      name:"green-two",
+      img:"./assets/images/cards/green-alien2.png"
+    },
+    {
+      name:"reddragon",
+      img:"./assets/images/cards/red-dragon.png"
+    },
+    {
+      name:"green",
+      img:"./assets/images/cards/green-alien.png"
+    },
+    {
+      name:"red",
+      img:"./assets/images/cards/red-alien.png"
+    },
+    {
+      name:"purple",
+      img:"./assets/images/cards/purple-alien.png"
+    }
+  ];
+
+  // Randomly sort cards
+  easyCardList.sort(() => 0.5 - Math.random());
+
+  // Set constants
+  const game = document.querySelector("#game");
+  const score = document.querySelector("#result");
+
+  let cardsChosen = [];
+  let cardsChosenId = [];
+  let cardsRight = [];
+
+  // Create game
+  function createGame () {
+    for (let i = 0; i < easyCardList.length; i++) {
+      const card = document.createElement("img");
+      card.setAttribute("src", "./assets/images/cards/blank.png");
+      card.setAttribute("class", "game-card");
+      card.setAttribute("data-id", i);
+      card.addEventListener("click", flipCard)
+      game.appendChild(card);
+    }
+  }
+
+  // Check if cards selected match
+  function checkMatch () {
+    const cards = document.querySelectorAll("img");
+    const optionOneId = cardsChosenId[0];
+    const optionTwoId = cardsChosenId[1];
+    
+    if (cardsChosen[0] === cardsChosen[1]) {
+      cards[optionOneId].removeEventListener("click", flipCard)
+      cards[optionTwoId].removeEventListener("click", flipCard)
+      cardsRight.push(cardsChosen)
+    } else {
+      cards[optionOneId].setAttribute("src", "./assets/images/cards/blank.png")
+      cards[optionTwoId].setAttribute("src", "./assets/images/cards/blank.png")
     }
     
-    createGame();
-  
-  })
+    //clear cards chosen
+    cardsChosen = [];
+    cardsChosenId = [];
+        
+    //Increase score for every correct match
+    score.textContent = cardsRight.length;
+    //Display alert when all cards collected
+    if (cardsRight.length === easyCardList.length/2) {
+      alert("Congratulations! You found all the matches!");;
+      }
+    }
+
+  //flip card on selection
+  function flipCard() {
+    let cardId = this.getAttribute("data-id");
+    cardsChosen.push(easyCardList[cardId].name);
+    cardsChosenId.push(cardId);
+    // add image
+    this.setAttribute("src", easyCardList[cardId].img);
+    if (cardsChosen.length === 2) {
+      setTimeout(checkMatch, 400);
+    }
+  }
+
+reset.addEventListener("click", resetEverything);
+function resetEverything() {
+  game.innerHTML = "";
+  createGame(game, easyCardList);
+  cardsRight = [];
+  score.innerHTML = 0;
+  cardsChosen = [];
+  cardsChosenId = [];
+}
+
+createGame();
+
+})

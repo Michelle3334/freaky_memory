@@ -89,11 +89,7 @@ h1 {
     margin-top: 120px;
     border: 2px solid;
 }
-/*
-#instructions h3 {
-    text-align: center;
-}
-*/
+
 #instructions i {
     color: #6C57B7;
 }
@@ -220,6 +216,7 @@ footer{
 .comment:hover {
     border-color: #6C57B7;
 }
+
 #submit-button {
     margin: 0 auto;
     border: 2px solid #6c57b7;
@@ -268,7 +265,7 @@ footer{
     height: 500px;
 }
 
-.game-cards{
+.game-card{
     width: 120px;
     height: 120px;
     margin: 5px;
