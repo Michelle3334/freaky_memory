@@ -1,7 +1,7 @@
 # Freaky Memory
 
 ## Interactive Frontend Development Milestone Project
-// Insert responsive design <img src="#">
+<img src="assets/images/readme/responsive-home.PNG">
 
 Freaky Memory is an online card memory game. The site is targeted at users that enjoy logic and brain power games, with a fun theme of aliens and monsters.
 
