@@ -142,7 +142,7 @@ Images were sourced from pixabay.com. These are credited in credits section.
 
 ## Code Validation
 * The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. The only errors were regarding headings which I do not feel those sections required.
-Javascript validator???
+Beautifytools was used to validate the JavaScript code.
 
     * Screenshot of css validation 
     <img src="assets/images/readme/css-validation.PNG">
