@@ -88,26 +88,30 @@ Images were sourced from pixabay.com. These are credited in credits section.
 ### Navigation Bar
    * Featured on all three pages is a fully responsive navigation bar that has links to the Home Page, Play game and Contact us pages.
    * It is identical on each page and allows the user to move from each page without using the 'back' button on the browser.
-    <img src="#"> 
+    <img src="assets/images/readme/header.PNG"> 
 
 ### Instruction section
-   * This section has a fun image and clear instructions on how to play the game. There is also a "play now!" button underneath the instructions.
-    <img src="#">
+   * This section has a fun image and clear instructions on how to play the game. There is also an interactive "play now!" button underneath the instructions.
+    <img src="assets/images/readme/instructions.PNG">
+
+### Fun facts
+   * During development I decided to add a fun facts section to the main page just to make things a little more interesting.
+   <img src="assets/images/readme/funfacts.PNG">  
 
 ### Play game
    * This is where the main activity will take place on the website.
    * The score and and number of moves updates whilst the user is playing.
    * There is a reset button underneath the game which allows the user to reset the game at any time during play.
-    <img src="#">   
+    <img src="assets/images/readme/game.PNG">   
 
 ### Footer
    * The footer section contains links to various social media sites.
    * The links open in a new tab so the user does not have to navigate back to Freaky memory.
-    <img src="#">
+    <img src="assets/images/readme/footer.PNG">
 
 ### Contact Us
    * This page invites the user to submit comments or suggestions to help improve the website.
-    <img src="#">
+    <img src="assets/images/readme/contactus.PNG">
 
 ## Features left to implement
 * I would like to include various levels of difficulty.
@@ -152,7 +156,7 @@ Javascript validator???
 [Back to Table of Contents](https://github.com/Michelle3334/freaky_memory#table-of-contents)
 
 ## Compatibility Testing
-* The website was tested on Google Chrome.
+* The website was tested on Google Chrome, and Samsung cellphones.
 * The website was viewed on a variety of device sizes such as Desktop, Samsung S10 and Samsung tablet, I used the responsive function when inspecting the pages to view various sizes. 
 
 ## Performance testing
@@ -190,7 +194,7 @@ Screenshots of the final test are presented below:
     * Users can provide feedback via the contact us form, as well as get in touch via the social media links located in the footer of each page.
 
 ## Known Bugs
-* 
+* When viewing on a cellphone, the top hero image above the game on the play page does not cover the entire page.
 
 [Back to Table of Contents](https://github.com/Michelle3334/freaky_memory#table-of-contents)
 
@@ -217,7 +221,8 @@ To run locally:
 
 # Credits
 ## Code
-* 
+* All CSS and HTML code was written by the developer.
+* The Javascript code was obtained and adapted to my needs from 'Code with Ania Kubów's youtube video. https://www.youtube.com/watch?v=tjyDOHzKN0w
 
 ## Content
 * The colour contrast for the background, text and links were checked using https://webaim.org/resources/linkcon. 
@@ -227,7 +232,7 @@ To run locally:
 * All images were obtained from https://pixabay.com.
 
 ## Acknowledgements
-* My mentor for advice and feedback.
-* My family for their endless support and feedback.
+* My mentor for support, advice and feedback.
+* My family for their endless support, feedback and testing.
 
 [Back to Table of Contents](https://github.com/Michelle3334/freaky_memory#table-of-contents)
