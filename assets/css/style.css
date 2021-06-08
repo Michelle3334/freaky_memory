@@ -495,6 +495,11 @@ footer{
         padding-right: 20px;
         padding-left: 10px;
     }
+
+    #reset-btn {
+        margin-left: 260px;
+        margin-right: 0px;
+    }
 }
 
 /* For small screen sizes from 400px wide and down */
