@@ -130,6 +130,8 @@ function resetEverything() {
   score.innerHTML = 0;
   cardsChosen = [];
   cardsChosenId = [];
+  movesCount.innerHTML = 0;
+  moves = 0;
 }
 // Count moves
 function movesCounter () {
