@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const optionOneId = cardsChosenId[0];
     const optionTwoId = cardsChosenId[1];
     
-    if (cardsChosen[0] === cardsChosen[1]) {
+    if (cardsChosen[0] === cardsChosen[1] && cardsChosenId[0] !== cardsChosenId[1]) {
       cards[optionOneId].removeEventListener("click", flipCard)
       cards[optionTwoId].removeEventListener("click", flipCard)
       cardsRight.push(cardsChosen)
