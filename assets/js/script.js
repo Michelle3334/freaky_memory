@@ -61,6 +61,8 @@ document.addEventListener("DOMContentLoaded", () => {
   // Set constants
   const game = document.querySelector("#game");
   const score = document.querySelector("#result");
+  const movesCount = document.querySelector("#moves");
+  let moves = 0;
 
   let cardsChosen = [];
   let cardsChosenId = [];
@@ -87,10 +89,12 @@ document.addEventListener("DOMContentLoaded", () => {
     if (cardsChosen[0] === cardsChosen[1] && cardsChosenId[0] !== cardsChosenId[1]) {
       cards[optionOneId].removeEventListener("click", flipCard)
       cards[optionTwoId].removeEventListener("click", flipCard)
-      cardsRight.push(cardsChosen)
+      cardsRight.push(cardsChosen);
+      movesCounter();
     } else {
       cards[optionOneId].setAttribute("src", "./assets/images/cards/blank.png")
       cards[optionTwoId].setAttribute("src", "./assets/images/cards/blank.png")
+      movesCounter();
     }
     
     //clear cards chosen
@@ -116,7 +120,7 @@ document.addEventListener("DOMContentLoaded", () => {
       setTimeout(checkMatch, 400);
     }
   }
-
+// Reset game
 reset.addEventListener("click", resetEverything);
 function resetEverything() {
   game.innerHTML = "";
@@ -126,6 +130,11 @@ function resetEverything() {
   score.innerHTML = 0;
   cardsChosen = [];
   cardsChosenId = [];
+}
+// Count moves
+function movesCounter () {
+  movesCount.innerHTML ++;
+  moves ++;
 }
 
 createGame();
