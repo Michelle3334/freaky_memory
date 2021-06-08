@@ -120,6 +120,7 @@ document.addEventListener("DOMContentLoaded", () => {
 reset.addEventListener("click", resetEverything);
 function resetEverything() {
   game.innerHTML = "";
+  easyCardList.sort(() => 0.5 - Math.random());
   createGame(game, easyCardList);
   cardsRight = [];
   score.innerHTML = 0;
