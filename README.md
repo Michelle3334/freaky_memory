@@ -141,15 +141,18 @@ Images were sourced from pixabay.com. These are credited in credits section.
 * Family members were asked to view the site and point out any bugs.
 
 ## Code Validation
-* The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+* The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. The only errors were regarding headings which I do not feel those sections required.
 Javascript validator???
 
-    * Screenshot of css validation <img src="#">
+    * Screenshot of css validation 
+    <img src="assets/images/readme/css-validation.PNG">
 
     * Screenshots of html validation
-        * Index.html <img src="#">
-        * Play.html <img src="#">
-        * ContactUs.html <img src="#">
+        * Index.html 
+        <img src="assets/images/readme/index-valid.PNG">
+        * Play.html 
+        <img src="assets/images/readme/play-valid.PNG">
+        * ContactUs.html <img src="assets/images/readme/contact-valid.PNG">
     
     * Screenshot of javascript validation
 
@@ -163,10 +166,10 @@ Javascript validator???
 I ran the Lighthouse tool to check performance of the website. 
 Screenshots of the final test are presented below:
 * Desktop
-<img src="#">
+<img src="assets/images/readme/lighthouse.PNG">
 
 * Mobile
-<img src="#">
+<img src="assets/images/readme/lighthouse-mobile.PNG">
 
 [Back to Table of Contents](https://github.com/Michelle3334/freaky_memory#table-of-contents)
 
