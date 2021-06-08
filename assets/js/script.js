@@ -62,6 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const game = document.querySelector("#game");
   const score = document.querySelector("#result");
   const movesCount = document.querySelector("#moves");
+  const reset = document.getElementById("reset-btn");
   let moves = 0;
 
   let cardsChosen = [];
@@ -75,7 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
       card.setAttribute("src", "./assets/images/cards/blank.png");
       card.setAttribute("class", "game-card");
       card.setAttribute("data-id", i);
-      card.addEventListener("click", flipCard)
+      card.addEventListener("click", flipCard);
       game.appendChild(card);
     }
   }
@@ -87,13 +88,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const optionTwoId = cardsChosenId[1];
     
     if (cardsChosen[0] === cardsChosen[1] && cardsChosenId[0] !== cardsChosenId[1]) {
-      cards[optionOneId].removeEventListener("click", flipCard)
-      cards[optionTwoId].removeEventListener("click", flipCard)
+      cards[optionOneId].removeEventListener("click", flipCard);
+      cards[optionTwoId].removeEventListener("click", flipCard);
       cardsRight.push(cardsChosen);
       movesCounter();
     } else {
-      cards[optionOneId].setAttribute("src", "./assets/images/cards/blank.png")
-      cards[optionTwoId].setAttribute("src", "./assets/images/cards/blank.png")
+      cards[optionOneId].setAttribute("src", "./assets/images/cards/blank.png");
+      cards[optionTwoId].setAttribute("src", "./assets/images/cards/blank.png");
       movesCounter();
     }
     
@@ -105,7 +106,7 @@ document.addEventListener("DOMContentLoaded", () => {
     score.textContent = cardsRight.length;
     //Display alert when all cards collected
     if (cardsRight.length === easyCardList.length/2) {
-      alert("Congratulations! You found all the matches!");;
+      alert("Congratulations! You found all the matches!");
       }
     }
 
@@ -141,4 +142,4 @@ function movesCounter () {
 
 createGame();
 
-})
+});

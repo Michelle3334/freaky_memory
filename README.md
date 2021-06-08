@@ -155,6 +155,7 @@ Javascript validator???
         * ContactUs.html <img src="assets/images/readme/contact-valid.PNG">
     
     * Screenshot of javascript validation
+    <img src="assets/images/readme/java-valid.PNG">
 
 [Back to Table of Contents](https://github.com/Michelle3334/freaky_memory#table-of-contents)
 
