@@ -207,6 +207,7 @@ footer{
 .text-input:hover{
     border-color: #6C57B7;
 }
+
 .comment {
     padding-left: 10px;
     padding-top: 5px;
@@ -264,6 +265,10 @@ footer{
     padding: 25px;
 }
 
+#win-message {
+    color: #6C57B7;
+}
+
 #game {
     text-align: center;
     margin: auto;
@@ -275,6 +280,7 @@ footer{
     width: 120px;
     height: 120px;
     margin: 5px;
+    cursor: pointer;
 }
 
 #reset-btn {

@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", () => {
     score.textContent = cardsRight.length;
     //Display alert when all cards collected
     if (cardsRight.length === easyCardList.length/2) {
-      alert("Congratulations! You found all the matches!");
+      document.getElementById("win-message").innerHTML = "Congratulations! You found all the matches!";
       }
     }
 
@@ -125,6 +125,7 @@ document.addEventListener("DOMContentLoaded", () => {
 reset.addEventListener("click", resetEverything);
 function resetEverything() {
   game.innerHTML = "";
+  document.getElementById("win-message").innerHTML = "";
   easyCardList.sort(() => 0.5 - Math.random());
   createGame(game, easyCardList);
   cardsRight = [];
