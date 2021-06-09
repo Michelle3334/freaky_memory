@@ -228,8 +228,8 @@ To run locally:
 # Credits
 ## Code
 * All CSS and HTML code was written by the developer.
-* The Javascript code was obtained and adapted to my needs from 'Code with Ania Kubów's youtube video. https://www.youtube.com/watch?v=tjyDOHzKN0w
-* W3schools.com was also referenced when I needed clarity on a specific function.
+* The Javascript code for the game was obtained and adapted to my needs from 'Code with Ania Kubów's youtube video. https://www.youtube.com/watch?v=tjyDOHzKN0w
+* W3schools.com was used for explanations and clarity on issues with sizing and other visual effects.
 
 ## Content
 * The colour contrast for the background, text and links were checked using https://webaim.org/resources/linkcon. 
@@ -240,6 +240,7 @@ To run locally:
 
 ## Acknowledgements
 * My mentor for support, advice and feedback.
+* The students on Slack for peer review and comments.
 * My family for their endless support, feedback and testing.
 
 [Back to Table of Contents](https://github.com/Michelle3334/freaky_memory#table-of-contents)
