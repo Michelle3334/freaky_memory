@@ -42,7 +42,7 @@ Freaky Memory is an online card memory game. The site is targeted at users that 
 * As a returning user, I want to be able to access the social media links.
 
 ## Structure of the website
-The website is designed to be user-friendy on all device sizes. Links have hover effects to provide interaction with the users.
+The website is designed to be user-friendy on all device sizes. Links and Buttons have hover effects to provide interaction with the users.
 
 [Back to Table of Contents](https://github.com/Michelle3334/freaky_memory#table-of-contents)
 
@@ -79,7 +79,7 @@ The main colors used in this project:
 For the main heading element I used Limelight and for all other text I used Josephin Sans. 
 Sans-Serif is used as a backup font.
 ### Images
-Images were sourced from pixabay.com. These are credited in credits section.
+Images were sourced from pixabay.com.
 
 [Back to Table of Contents](https://github.com/Michelle3334/freaky_memory#table-of-contents)
 
@@ -105,7 +105,7 @@ Images were sourced from pixabay.com. These are credited in credits section.
     <img src="assets/images/readme/game.PNG">   
 
 ### Footer
-   * The footer section contains links to various social media sites.
+   * The footer section contains links to social media sites as well as a copyright icon.
    * The links open in a new tab so the user does not have to navigate back to Freaky memory.
     <img src="assets/images/readme/footer.PNG">
 
@@ -114,7 +114,9 @@ Images were sourced from pixabay.com. These are credited in credits section.
     <img src="assets/images/readme/contactus.PNG">
 
 ## Features left to implement
-* I would like to include various levels of difficulty.
+* Increased levels of difficulty.
+* An option to log in and save your scores.
+* Accuracy percentage.
 
 [Back to Table of Contents](https://github.com/Michelle3334/freaky_memory#table-of-contents)
 
@@ -227,6 +229,7 @@ To run locally:
 ## Code
 * All CSS and HTML code was written by the developer.
 * The Javascript code was obtained and adapted to my needs from 'Code with Ania Kubów's youtube video. https://www.youtube.com/watch?v=tjyDOHzKN0w
+* W3schools.com was also referenced when I needed clarity on a specific function.
 
 ## Content
 * The colour contrast for the background, text and links were checked using https://webaim.org/resources/linkcon. 
