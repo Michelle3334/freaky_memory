@@ -73,6 +73,7 @@ h1 {
     float: left;
     padding-left: 100px;
     margin-top: 100px;
+    margin-left: 50px;
 }
 
 #h-image {
@@ -351,7 +352,7 @@ footer{
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
-#title {
+    #title {
         margin-left: 100px;
         padding-top: 20px;
     }
@@ -521,6 +522,13 @@ footer{
 /* For small screen sizes from 400px wide and down */
 @media screen and (max-width: 400px) {
     
+    #menu {
+        font-size: xx-small;
+    }
+    #title {
+        font-size: small;
+    }
+
     #fun-fact1 {
         padding-right: 20px;
         padding-left: 10px;
