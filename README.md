@@ -200,7 +200,7 @@ Screenshots of the final test are presented below:
 
 ## Known Bugs
 * There are two errors in the html files - one the play.html and one on the contact.html - I chose not to add headings to these sections as I felt the look of the page did not require any headings.
-* When viewing the play screen on a cellphone the boxes do not size to the phone, the user needs to zoom out in order to play the game.
+* When viewing the play screen on a cellphone the screen does not size correctly, the user needs to zoom out in order to view all the cards.
 
 [Back to Table of Contents](https://github.com/Michelle3334/freaky_memory#table-of-contents)
 
