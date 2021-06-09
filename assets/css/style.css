@@ -454,6 +454,10 @@ footer{
     #contact {
         padding-left: 20px;
     }
+
+    #play {
+        width: 640px;
+    }
 }
 
 /* For small screen sizes from 550px wide and down */
