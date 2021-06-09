@@ -32,9 +32,11 @@
             <p>Do you have any questions or comments?</p>
             <br>
             <p>Feel free to get in touch using the form below.</p>
+            <br>
+            <p id="message"></p>
         </div>
         <!--Contact us form-->
-        <form action="#" method="get">
+        <form id="form" action="#" method="get">
             <fieldset id="contact">
                 <legend><strong>Contact Us</strong></legend>
                 <label for="name">Name</label>
@@ -43,6 +45,8 @@
                 <input class="text-input" type="email" placeholder="Email Address" id="email" required>
                 <textarea class="comment" required placeholder="Your message........."></textarea>
                 <input id="submit-button" type="submit" value="Submit">
+                <!--JavaScript-->
+                <script src="assets/js/message.js"></script>
             </fieldset>
         </form>
     </section>
