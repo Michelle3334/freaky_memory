@@ -143,8 +143,7 @@ Images were sourced from pixabay.com.
 * Family members were asked to view the site and point out any bugs.
 
 ## Code Validation
-* The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. The only errors were regarding headings which I do not feel those sections required.
-Beautifytools was used to validate the JavaScript code.
+* The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. Beautifytools was used to validate the JavaScript code.
 
     * Screenshot of css validation 
     <img src="assets/images/readme/css-validation.PNG">
@@ -200,7 +199,8 @@ Screenshots of the final test are presented below:
     * Users can provide feedback via the contact us form, as well as get in touch via the social media links located in the footer of each page.
 
 ## Known Bugs
-* When viewing on a cellphone, the top hero image above the game on the play page does not cover the entire page.
+* There are two errors in the html files - one the play.html and one on the contact.html - I chose not to add headings to these sections as I felt the look of the page did not require any headings.
+* When viewing the play screen on a cellphone the boxes do not size to the phone, the user needs to zoom out in order to play the game.
 
 [Back to Table of Contents](https://github.com/Michelle3334/freaky_memory#table-of-contents)
 
