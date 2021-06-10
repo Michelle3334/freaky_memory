@@ -5,7 +5,7 @@
 
 Freaky Memory is an online card memory game. The site is targeted at users that enjoy logic and brain power games, with a fun theme of aliens and monsters.
 
-The live site can be found <a href="https://michelle3334.github.io/freaky_memory/index.html" target="_blank" rel="noopener">here</a>.
+The live site can be found <a href="https://michelle3334.github.io/freaky_memory/index.html" target="_blank" rel="noopener">here</a>. (Note: Right click on link to open a new tab).
 
 # Table of Contents
 1. [UX](https://github.com/Michelle3334/freaky_memory#ux)
@@ -80,6 +80,7 @@ The main colors used in this project:
 ### Fonts
 For the main heading element I used Limelight and for all other text I used Josephin Sans. 
 Sans-Serif is used as a backup font.
+
 ### Images
 Images were sourced from pixabay.com.
 
@@ -102,7 +103,7 @@ Images were sourced from pixabay.com.
 
 ### Play game
    * This is where the main activity will take place on the website.
-   * The score and and number of moves updates whilst the user is playing.
+   * The score and and number of moves update whilst the user is playing. Every two selections (or clicks) counts as one move.
    * There is a reset button underneath the game which allows the user to reset the game at any time during play.
     <img src="assets/images/readme/game.PNG">   
 
@@ -115,10 +116,10 @@ Images were sourced from pixabay.com.
    * This page invites the user to submit comments or suggestions to help improve the website.
     <img src="assets/images/readme/contactus.PNG">
 
-## Features left to implement
+## Future features
 * Increased levels of difficulty.
 * An option to log in and save your scores.
-* Accuracy percentage.
+* Accuracy percentage display.
 
 [Back to Table of Contents](https://github.com/Michelle3334/freaky_memory#table-of-contents)
 
@@ -142,7 +143,7 @@ Images were sourced from pixabay.com.
 ## Functionality Testing
 * I used Google Chrome developer tools throughout the development process for testing and solving problems with style issues.
 * All links were tested multiple times during the development process to ensure that all pages were linked correctly.
-* Family members were asked to view the site and point out any bugs.
+* Family members and friends were asked to view the site and play the game.
 
 ## Code Validation
 * The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. Beautifytools was used to validate the JavaScript code.
@@ -164,7 +165,7 @@ Images were sourced from pixabay.com.
 
 ## Compatibility Testing
 * The website was tested on Google Chrome, and Samsung cellphones.
-* The website was viewed on a variety of device sizes such as Desktop, Samsung S10 and Samsung tablet, I used the responsive function when inspecting the pages to view various sizes. 
+* The website was viewed on a variety of device sizes such as Desktop, Samsung S10, Samsung tablet and Iphone 11, I also used the responsive function when inspecting the pages to view various sizes. 
 
 ## Performance testing
 I ran the Lighthouse tool to check performance of the website. 
@@ -202,7 +203,7 @@ Screenshots of the final test are presented below:
 
 ## Known Bugs
 * There are two errors in the html files - one the play.html and one on the contact.html - I chose not to add headings to these sections as I felt the look of the page did not require any headings.
-* When viewing the play screen on a cellphone the screen does not size correctly, the user needs to zoom out in order to view all the cards.
+* When initially navigating to the play screen on a cellphone the screen does not size automatically, the user needs to zoom out in order to view the page. However, once zoomed out the page fits the screen size.
 
 [Back to Table of Contents](https://github.com/Michelle3334/freaky_memory#table-of-contents)
 
