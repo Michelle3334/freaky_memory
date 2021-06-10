@@ -5,6 +5,8 @@
 
 Freaky Memory is an online card memory game. The site is targeted at users that enjoy logic and brain power games, with a fun theme of aliens and monsters.
 
+The live site can be found <a href="https://michelle3334.github.io/freaky_memory/index.html" target="_blank">here</a>.
+ 
 # Table of Contents
 1. [UX](https://github.com/Michelle3334/freaky_memory#ux)
     * [Website owner goals](https://github.com/Michelle3334/freaky_memory#website-owner-business-goals)
